@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Convertidor de párrafo</title>
+	<link rel="stylesheet" type="text/css" href="traductor.css">
+</head>
+<body>
+	<h1>Convertidor de párrafo</h1>
+	<label for="input-es">Introduce un párrafo en español:</label>
+	<textarea id="input-es"></textarea>
+	<button id="translate-en-btn" onclick="translate('en', 'input-es')">Traducir a inglés</button>
+	<label for="input-en">Traducción en inglés:</label>
+	<textarea id="input-en" readonly></textarea>
+	<button id="translate-fr-btn" onclick="translate('fr', 'input-es')">Traducir a francés</button>
+	<label for="input-fr">Traducción en francés:</label>
+	<textarea id="input-fr" readonly></textarea>
+	<script src="traductor.js"></script>
+</body>
+</html>

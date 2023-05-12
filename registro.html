@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Registro</title>
+	<link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Formulario de Registro</h2>
+		<form id="signup-form">
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="password">Clave:</label>
+			<input type="password" id="password" name="password" required>
+
+			<label for="email">Correo electronico:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="semester">Semestre:</label>
+			<select id="semester" name="semester" required>
+				<option value="">Seleccione el semestre</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+
+			<label for="institute">Instituto:</label>
+			<input type="text" id="institute" name="institute" required>
+
+			<input type="submit" value="Enviar">
+
+		</form>
+        <input type="submit" value="Registrarse">
+    <button><a href="login.html">Inicion Sesion </a> </button> 
+
+
+		<div id="message"></div>
+	</div>
+
+	<script src="registro.js"></script>
+</body>
+</html>

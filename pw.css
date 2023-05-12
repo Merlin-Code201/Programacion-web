@@ -1,0 +1,34 @@
+body {
+    font-family: Heebo, sans-serif;
+    background-color:rgb(62, 84, 163);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.fila {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.trabajo {
+width: 30%;
+background-color: #f2f2f2;
+padding: 20px;
+border: 1px solid #ccc;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.trabajo h2 {
+margin-top: 0;
+}
+
+.trabajo p {
+margin-bottom: 10px;
+}
+
+.trabajo a {
+display: block;
+text-align: right;
+}

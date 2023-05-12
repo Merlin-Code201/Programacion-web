@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas de seguridad</title>
+  <link rel="stylesheet" href="movil.css">
+</head>
+<body>
+  <header>
+    <h1>Notas de seguridad</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="contenido">Contenido:</label>
+      <textarea id="contenido" name="contenido" required></textarea>
+
+      <button type="submit">Agregar nota</button>
+    </form>
+
+    <ul id="lista-notas"></ul>
+  </main>
+
+  <script src="movil.js"></script>
+</body>
+</html>
